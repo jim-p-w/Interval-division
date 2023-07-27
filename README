@@ -1,0 +1,19 @@
+The idea of this exercise is to implement an efficient routine for dividing one
+time interval by another, with the restriction that the only operations that may
+be performed on the intervals are addition, subtraction, and multiplication by
+an integer. The time intervals themselves are represented by a TimeInterval
+class, which may not be modified.
+
+We're looking for an implementation of the "divide(...)" function in the
+interval_tests.cpp file, along with a set of tests to verify the correctness of
+the divide(...) function. The tests may be implemented directly in the main
+function in the interval_tests.cpp file or in their own functions.
+
+Comments in the divide(...) function should be sufficient to convince a code
+reviewer that the function is correct for all possible inputs.
+
+Additionally, the method used to implement interval division in the divide(...)
+function should be as algorithmically efficient as possible. In climate
+simulations, intervals as large as several millenia may be involved, and in
+weather research, intervals as small as a fraction of a second are frequently
+used.
